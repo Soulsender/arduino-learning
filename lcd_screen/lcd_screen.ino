@@ -24,7 +24,7 @@ void loop() {
     Serial.print(fucksIGive, buttonPin);
 
     if (buttonState == HIGH) {
-        fucksIGive++;
+        fucksIGive--;
         delay(500);
     }
 }
